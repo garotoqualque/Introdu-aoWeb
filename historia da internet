@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>História da internet</title>
+</head>
+<body>
+    <h1>História da Internet</h1>
+    <img src="../assets/40791.webp" alt="linha do tempo da história da internet" width="400px">
+</body>
+
+<!--
+    Fazer:
+        Criar no mínimo 3 tópicos sobre a história da internet usando <h2>, <p>, Lorem Ipsum, e 3 bookmrk no inicio da página levando para cada tópico
+        Bookmark é um tipo de link exemplo:
+            <a href="#subtitulo">Bookmark</a>
+
+            <h2 id="subtitulo"></h2>
+
+
+-->
