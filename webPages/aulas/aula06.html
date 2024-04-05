@@ -1,9 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Surpergeeks Provisório</title>
     </head>
         <body>
-        
+            <form>
+                <p>Nome:</p>
+                <input type="text" placeholder="Digite seu nome" required>
+                <input type="text" placeholder="Digite seu nome do meio"required>
+                <input type="text" placeholder="Digite seu sobrenome"required>
+
+                <h2>Cronagama computação</h2>
+                <p>Perdi a aula 01<input type="checkbox" name="aula01" id=""required></p>
+                <p>Perdi a aula 02<input type="checkbox" name="aula02" id=""required></p>
+                <p>Perdi a aula 03<input type="checkbox" name="aula03" id=""required></p>
+                <p>Perdi a aula 04<input type="checkbox" name="aula04" id=""required></p>
+                <p>Perdi a aula 05<input type="checkbox" name="aula05" id=""required></p>
+
+                <h2>Gênero</h2>
+                <p><input type="radio" name="gen" value="F"required>Feminino
+                <p><input type="radio" name="gen" value="M"required>Malculino
+                <p><input type="radio" name="gen" value="O"required>Prefiro não imformar 
+                <h2>Posso Votar</h2>
+                <p><input type="radio" name="votar" value="S"required>Sim
+                <p><input type="radio" name="votar" value="N"required>Não
+
+                <h2>Quando você nasceu</h2>
+               <p>Dt. Nasc.:<input type="date" name="" id=""required></p>
+               <p>Data e Hora<input type="datetime-local" name="" id=""required></p>
+
+               <H2>Qual e sua cor favorita</H2> 
+               <p>Escolha uma<input type="color" name="" id=""required></p>
+
+               <h2>Insira seu projeto zipado</h2>
+               <input type="file" name="arquivo" id=""required>
+
+                <h2>Adivinhe</h2>
+                <p>Número entre 1 e 5 <input type="number" min="1" max="5"required></p>
+                <p>Número entre 1 e 5 <input type="range" min="1" max="5"required></p>
+
+                <h2>Redação</h2>
+                <textarea name="" id="" cols="50" rows="5"required></textarea>
+
+                <h2>Botões</h2>
+                 <button type="button" onclick="alert('AAAAAAAAAAAAAAAAAAAAAAAAAA')">Grite Comigo</button> 
+
+                <h2>Em que região você mora</h2>
+                <p>
+                    Escolha:
+                    <select name="Estado" id=""required>
+                        <option value="NE">Nordeste</option>
+                        <option value="N">Norte</option>
+                        <option value="SE">Suldeste</option>
+                        <option value="S">Sul</option>
+                        <option value="CO">Centor-Oeste</option>
+                    </select>
+                </p>
+
+                <h2>Diferença entre</h2>
+                <input type="submit" value="Enviar"required>
+                <input type="reset" value="Reniciar"required>
         </body>
 </html>
