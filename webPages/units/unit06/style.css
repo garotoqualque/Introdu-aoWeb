@@ -1,0 +1,19 @@
+ul.vertical{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: 250px;
+    background-color: gainsboro;
+}
+
+.vertical li a{
+    display: block;
+    color: black;
+    padding:8px 16px;
+    text-decoration:none ;
+}
+
+.vertical li a:houver {
+    background-color: black;
+    color:red ;
+}
