@@ -1,13 +1,76 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>unit10-11 - introduçao ao javaScript</title>
-</head>
-<body>
-    
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>unit10-11 - introduçao ao javaScript</title>
+    </head>
+    <body>
+        <div id="if">
+            <input type="password" id="senha">
+        </div>
+        <button
+        onclick="
+            var pass = document.getElementById('senha').value
+            console.log(pass);
+            if(pass == '123456'){
+                alert('bem vindo!')
+            }else{
+                alert('tente novamente')
+            }
+            "
+        >
+            Entrar
+        </button>
 
-    <script src="script.js"></script>
-</body>
-</html>
+        <div id ="siwtch">
+            <select  id="opcoes">
+
+                <option value="1">opçao</option>
+                <option value="1">opçao</option>
+                <option value="1">opçao</option>
+            </select>
+        </div>
+        <button
+        onclick="
+            var op = document.getElementById('opcoes').value;
+            console.log(op);
+            switch(op){
+                case '1':
+                    alert('1')
+                    break;
+                case '2':
+                    alert('2')
+                    break;
+                case '3':
+                    alert('3')
+                    break;
+            }
+            "
+        >
+
+        </button>
+
+        <h3>repetiçao - for</h3>
+
+        <div id="for">
+            <input id="qtd">
+            <button
+            onclick="
+            var qtdInput = document.getElementById('qtd').value;
+            var htmlFinal ='';
+
+            for(var i = 0; i < qtdInput; i++){
+                htmlFinal += 'Nome: <input> <br><br>'
+            }
+            document.getElementById('nomes').innerHTML = htmlFinal;
+                "
+            >
+            Criar
+            </button>
+            <div id="nomes">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+    </html>

@@ -48,3 +48,41 @@ console.log("fora do bloco" + animal);
 
  var comparacao2 = (0 === "0");
  console.log(comparacao2);
+
+ //estrutura de decisão IF-ELSE
+ if(10 > 5){
+        console.log("e maior");
+ }
+
+
+
+ var num = 0;
+ if(num > 0){
+    console.log("e positivo");
+ }
+
+ else if(num < 0){
+    console.log("e negativo");
+ }
+
+ else{
+    console.log("e zero")
+ }
+
+ //switch-case
+
+ var num2 =10;
+
+ switch(num2){
+    case 5:
+        console.log("é cinco");
+        break
+    case 0:
+        console.log("é zero")
+ }
+
+ //laço de pepetiçao - for
+
+ for(var i = 0; i < 5; i++){
+    console.log("bom dia.")
+ }
