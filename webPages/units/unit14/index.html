@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h2>API - Star Wars</h2>
+
+        <div>
+            <button id="botaoBuscaPersonagem">
+                Buscar Personagem Aleatório
+            </button>
+
+            <label id="personagemEscolhido">Personagem escolhido:</label>
+
+            <label id="personagemAleatorio"></label>
+
+            <div id="personagemDetalhes">
+                <h3>Detalhes do Personagem</h3>
+
+                <ul>
+                    <li> <strong> Nome: </strong> <span id="nomePersonagem"></span> </li>
+                    <li> <strong> Altura: </strong> <span id="alturaPersonagem"></span> </li>
+                    <li> <strong> Massa: </strong> <span id="massaPersonagem"></span> </li>
+                    <li> <strong> Cor do Cabelo: </strong> <span id="corCabeloPersonagem"></span> </li>
+                    <li> <strong> Cor da Pele: </strong> <span id="corPelePersonagem"></span> </li>
+                    <li> <strong> Cor dos Olhos: </strong> <span id="corOlhosPersonagem"></span> </li>
+                    <li> <strong> Ano de Nascimento: </strong> <span id="nascimentoPersonagem"></span> </li>
+                    <li> <strong> Gênero: </strong> <span id="generoPersonagem"></span> </li>
+                                                    
+                </ul>
+
+            </div>
+        </div>
+
+        <div>
+            <input id="buscarFilmeporPersonagem">
+            <button id="botaoBuscaFilme">Buscar Filme Por Nome de Personagem</button>
+
+            Filme de: <label id="labelFilme"></label>
+        </div>
+
+        <div>
+            <table id="tabelaFilmes" border="1">
+                <tr>
+                    <th>Nome</th>
+                    <th>Episódio</th>
+                    <th>diretor</th>
+                </tr>
+            </table>
+        </div>
+
+        <footer class="rodape">
+            <p>Estudando APIs</p>
+
+            <p>&copy; 2024 Site de estudos</p>
+            <p>Esse site foi criado pelo aluno 'Pedro Laporta'</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>Carrinho de Compras</h2>
+
+        Nome do item: <input id="nomeItem">
+        Quantidade: <input id="quantidade">
+        Preço:  <input id="preco">
+
+        <button onclick="adicionarItem()">Adicionar Item</button>
+
+        <table id="tableItens">
+            <tr>
+                <th>Nome</th>
+                <th>Quantidade</th>
+                <th>preço</th>
+            </tr>
+        </table>
+
+        <button onclick="fecharCompra()">Fechar Compra</button>
+
+        <script src="script.js"></script>
+    </body>
+    </html>

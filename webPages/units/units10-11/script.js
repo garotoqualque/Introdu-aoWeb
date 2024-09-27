@@ -86,3 +86,10 @@ console.log("fora do bloco" + animal);
  for(var i = 0; i < 5; i++){
     console.log("bom dia.")
  }
+
+ //while
+
+ while(numero <=10){
+console.log(numero);
+numero = numero + 1;
+}

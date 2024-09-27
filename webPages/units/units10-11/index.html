@@ -71,6 +71,30 @@
             <div id="nomes">
         </div>
 
+        <h3>repetiçao - while</h3>
+
+        <div id="while">
+            <button onclick="
+            var num = Math.floor(Math.random() * 10);
+
+            console.log(num);
+            var htmlFinal = '';
+
+            while(num ! = 2){
+                htmlFinal += num;
+                num = Math.floor(Math.random() * 10);
+                document.getElementById('numeros').innerHTML =htmlFinal;
+            }
+                ">
+                gerar
+            </button>
+
+        </div>
+
+        <div id="numeros">
+
+        </div>
+
         <script src="script.js"></script>
     </body>
     </html>
